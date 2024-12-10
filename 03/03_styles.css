@@ -9,14 +9,14 @@ body{
 
 .container{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-between;
-    width: 80%;
-    gap: 50px;
+    width: 100%;
+    gap: 20px;
 }
 
 .box{
-    width: 400px;
+    width: 500px;
     background-color: forestgreen;
     border-radius: 5px;
 
